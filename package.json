@@ -1,0 +1,16 @@
+{
+  "name": "tumblr-photo-importer",
+  "description": "Tumblr photo posts importer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "import": "node index.js",
+    "erase": "node erase.js"
+  },
+  "dependencies": {
+    "inquirer": "^6.4.1",
+    "tumblr.js": "^2.0.2",
+    "xml2js": "^0.4.19"
+  }
+}
